@@ -1,0 +1,80 @@
+@import url("./reset.css");
+@import url("./header.css");
+
+@media screen and (min-width: 768px) {
+  .header-icon {
+    width: 50px;
+  }
+
+  .teacher-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    gap: 24px;
+  }
+  .teacher-img {
+    margin: 0;
+    height: 400px;
+  }
+
+  .teacher-info {
+    box-shadow: none;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .teacher-name {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .teacher-text {
+    font-size: 20px;
+  }
+}
+
+.calendar {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calendar-container {
+  display: flex;
+  gap: 24px;
+}
+.calendar-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.calendar-link {
+}
+.calendar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+.calendar-list-item {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-list {
+    display: flex;
+    gap: 24px;
+  }
+  .header-button {
+    display: none;
+  }
+
+  .header-item-menu {
+    position: absolute;
+    top: 30px;
+    display: none;
+    flex-direction: column;
+    gap: 24px;
+  }
+}

@@ -1,0 +1,141 @@
+/* Imports */
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./footer.css");
+
+/* Calendar */
+.calendar {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-item-link {
+  background-color: gold;
+}
+
+.hero {
+  background-image: url("../img/subject/informatica.png");
+  padding: 400px 0;
+}
+
+.hero-title {
+  font-family: Sedan SC;
+  font-size: 80px;
+  text-align: center;
+  color: gold;
+  text-shadow: 1px 4px 0px black;
+}
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.calendar-link {
+  margin: 0 auto;
+}
+
+.calendar-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.calendar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.calendar-list-item {
+  font-family: "Ubuntu Sans Mono", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tbody {
+  border: 1px solid black;
+}
+
+.table {
+  color: black;
+  padding: 50px 0;
+}
+
+.table-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2e0a57;
+}
+
+.table-number {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  border: transparent;
+}
+
+.table-section {
+  border-top: 1px solid black;
+}
+
+.table-row {
+  font-weight: 600;
+  background-color: darkgray;
+}
+
+.table-row-bold {
+  background-color: darkgray;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .calendar-title {
+    font-size: 40px;
+  }
+
+  .calendar-container {
+    flex-direction: row;
+  }
+
+  .table-title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1199px;
+  }
+
+  .calendar-list-item {
+    font-size: 24px;
+  }
+
+  .calendar-img {
+    width: 300px;
+  }
+}

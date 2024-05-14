@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Інформатика</title>
+    <!-- Library styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Styles css -->
+    <link rel="stylesheet" href="../css/informatica.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="header-nav">
+          <a class="header-logo" href="../index.html">Galyna Vorona</a>
+          <ul class="header-list">
+            <li class="header-list-item">
+              <a class="header-item-link" href="../index.html#subject"
+                >Предмети</a
+              >
+            </li>
+            <li class="header-list-item">
+              <a class="header-item-link" href="#structure">Структура</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-item-link" href="#footer">Контакти</a>
+            </li>
+          </ul>
+          <button class="header-btn">
+            <svg class="header-btn-icon" width="26" height="26">
+              <use href="../img/icon.svg#icon-menu"></use>
+            </svg>
+          </button>
+        </nav>
+
+        <div class="header-mob-menu">
+          <ul class="header-mob-menu-list">
+            <li class="header-mob-list-item">
+              <a class="header-mob-item-link" href="../index.html">Предмети</a>
+            </li>
+            <li class="header-mob-list-item">
+              <a class="header-mob-item-link" href="#structure">Структура</a>
+            </li>
+            <li class="header-mob-list-item">
+              <a class="header-mob-item-link" href="#footer">Контакти</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <h1 class="hero-title">Інформатика</h1>
+      </section>
+      <section class="calendar">
+        <div class="container">
+          <h2 class="calendar-title">Календарне планування</h2>
+          <div class="calendar-container">
+            <a href="../doc/Інформатика.doc" class="calendar-link"
+              ><img
+                class="calendar-img"
+                src="../img/informatic/document.png"
+                alt=""
+                width="250"
+            /></a>
+            <ol class="calendar-list">
+              <li class="calendar-list-item">
+                Мета та завдання навчальної дисципліни
+              </li>
+              <li class="calendar-list-item">
+                Структура навчальної дисципліни
+              </li>
+              <li class="calendar-list-item">Програма навчальної дисципліни</li>
+              <li class="calendar-list-item">Теми практичних занять</li>
+              <li class="calendar-list-item">Методи навчання</li>
+              <li class="calendar-list-item">Методи контролю</li>
+              <li class="calendar-list-item">Методичне забезпечення</li>
+              <li class="calendar-list-item">Рекомендована література</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <!-- Table -->
+      <section class="table" id="structure">
+        <div class="container">
+          <h2 class="table-title">Структура навчальної дисципліни</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  № <br />
+                  з/п
+                </th>
+                <th>Тема</th>
+                <th>Всього</th>
+                <th>Лекції</th>
+                <th>ЛПЗ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- 1 розділ -->
+              <tr>
+                <td class="table-number"></td>
+                <td class="table-row">Інформаційні технології в суспільстві</td>
+                <td class="table-row">8</td>
+                <td class="table-row">6</td>
+                <td class="table-row">2</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Інструктування з БЖД та правил поведінки під час роботи за
+                  комп’ютером. Інформаційні системи у сучасному суспільстві.
+                </td>
+                <td>8</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number">1.</td>
+                <td>
+                  Інформаційна безпека. Загрози при роботі в Інтернеті і їх
+                  уникнення. Навчання в Інтернеті. Професії майбутнього.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Системи електронного врядування. Штучний інтелект, інтернет
+                  речей, Smart-технології.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота №1. Інструктаж з БЖД. Робота з навчальними
+                  програмами.
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+              <!-- 2 розділ -->
+              <tr class="table-section">
+                <td class="table-number"></td>
+                <td class="table-row">
+                  Моделі і моделювання. Аналіз та візуалізація даних
+                </td>
+                <td class="table-row">14</td>
+                <td class="table-row">8</td>
+                <td class="table-row">6</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Комп’ютерне моделювання об’єктів і процесів. Основи
+                  статистичного аналізу.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Пошук та збір наборів даних. Соціальні аспекти масштабного
+                  аналізу даних.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота №2. Інструктаж З БЖД. Аналіз даних за
+                  допомогою функцій табличного процесора.
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td class="table-number">2.</td>
+                <td>
+                  Програмні засоби для складних обчислень, аналізу даних та
+                  фінансових розрахунків.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота № 3. Інструктаж З БЖД. Розв’язування систем
+                  рівнянь, оптимізаційних задач.
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>Візуалізація рядів і трендів даних. Інфографіка.</td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>Практична робота №4. Побудова графіків та діаграм.</td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+
+              <!-- 3 розділ -->
+              <tr class="table-section">
+                <td class="table-number"></td>
+                <td class="table-row-bold">Системи керування базами даних</td>
+                <td class="table-row">36</td>
+                <td class="table-row">10</td>
+                <td class="table-row">8</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td class="table-row">Проектування моделі бази даних</td>
+                <td class="table-row">8</td>
+                <td class="table-row">6</td>
+                <td class="table-row">2</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Поняття бази даних. Поняття, призначення й основні функції
+                  систем управління базами даних.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Модель «сутність-зв’язок» предметної області. Поняття
+                  сутності, атрибута, ключа, зв’язку
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>Класифікація зв’язків за множинністю та обов’язковістю.</td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота №5. Інструктаж з БЖД. Побудова моделі даних
+                  предметної області.
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td class="table-row">Створення реляційної бази даних</td>
+                <td class="table-row">12</td>
+                <td class="table-row">8</td>
+                <td class="table-row">4</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Створення та відкриття бази даних. Основні об’єкти БД.
+                  Відображення моделі «сутність-зв’язок» на базу даних.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Створення БД, таблиць та наповнення їх інформацією. Створення
+                  зв'язків у СКБД.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота №6. Інструктаж з БЖД. Створення бази даних у
+                  програмному середовищі.
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td class="table-number">3.</td>
+                <td>
+                  Розробка інтерфейсу користувача для введення даних. Створення
+                  форм для введення даних у таблиці.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Використання в інтерфейсі користувача БД кнопок, створення
+                  меню користувача БД.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота №7. Інструктаж з БЖД. Розробка та реалізація
+                  інтерфейсу проекту.
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td class="table-row">Використання реляційної бази даних</td>
+                <td class="table-row">16</td>
+                <td class="table-row">10</td>
+                <td class="table-row">6</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Сортування, пошук і фільтрація даних. Поняття запиту до
+                  реляційної бази даних. Створення простих вибіркових запитів.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота №8. Інструктаж з БЖД. Пошук та фільтрація
+                  даних.
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>Основи мови SQL. Оператор IN. Віднімання множин записів</td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>Вибіркові запити з фразами GROUP BY та HAVING.</td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Застосування мови SQL для створення запитів на додавання,
+                  оновлення та видалення даних
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота №9. Інструктаж з БЖД. Розробка запитів та їх
+                  реалізація.
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>Створення звітів за однією та кількома таблицями.</td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота №10. Інструктаж з БЖД. Підготовка та
+                  реалізація звітів.
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+
+              <!-- 4 розділ -->
+              <tr class="table-section">
+                <td class="table-number"></td>
+                <td class="table-row-bold">Інформаційна безпека</td>
+                <td class="table-row">18</td>
+                <td class="table-row">16</td>
+                <td class="table-row">2</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td class="table-row">
+                  Основи безпеки інформаційних технологій
+                </td>
+                <td class="table-row">4</td>
+                <td class="table-row">4</td>
+                <td class="table-row">-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Основні поняття в області безпеки інформаційних технологій.
+                  Загрози безпеці інформації в автоматизованих системах.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Основні ненавмисні і навмисні штучні загрози. Технічні та
+                  програмні засоби добування інформації
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td class="table-row">
+                  Забезпечення безпеки інформаційних технологій
+                </td>
+                <td class="table-row">6</td>
+                <td class="table-row">6</td>
+                <td class="table-row">-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Об'єкти захисту. Види заходів протидії загрозам безпеки.
+                  Правові основи забезпечення безпеки інформаційних технологій.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number">4.</td>
+                <td>Основні захисні механізми.</td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Методи захисту інформації. Міжнародні стандарти інформаційної
+                  безпеки
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td class="table-row">
+                  Забезпечення безпеки комп'ютерних систем і мереж
+                </td>
+                <td class="table-row">8</td>
+                <td class="table-row">6</td>
+                <td class="table-row">2</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>Забезпечення безпеки в комп'ютерних системах і мережах.</td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Системи аналізу вмісту поштового і веб-трафіку. Віртуальні
+                  приватні мережі (VPN).
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>Антивірусні засоби захисту.</td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота №11. Інструктаж з БЖД. Забезпечення безпеки
+                  комп'ютерних систем і мереж.
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+              <!-- 5 розділ -->
+              <tr class="table-section">
+                <td class="table-number"></td>
+                <td class="table-row">
+                  Мультимедійні та гіпертекстові документи
+                </td>
+                <td class="table-row">12</td>
+                <td class="table-row">6</td>
+                <td class="table-row">6</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Технології опрацювання мультимедійних даних. Проектування та
+                  створення об'єктів мультимедіа
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Системи керування вмістом для веб-ресурсів. Створення та
+                  адміністрування сайту.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number">5.</td>
+                <td>
+                  Поняття про мову розмічання гіпертекстового документа.
+                  Гіпертекстові, графічні, анімаційні та мультимедійні елементи
+                  на веб-сторінках.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота №12. Інструктаж з БЖД. Створення
+                  гіпертекстових документів.
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Ергономіка розміщення відомостей на веб-сторінці. Поняття
+                  пошукової оптимізації та просування веб-сайтів.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота №13. Інструктаж з БЖД. Автоматизоване
+                  створення веб-сайта.
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+
+              <!-- 6 розділ -->
+              <tr class="table-section">
+                <td class="table-number"></td>
+                <td class="table-row-bold">
+                  Основи електронного документообігу
+                </td>
+                <td class="table-row">17</td>
+                <td class="table-row">26</td>
+                <td class="table-row">36</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td class="table-row">Документи та документообіг</td>
+                <td class="table-row">6</td>
+                <td class="table-row">2</td>
+                <td class="table-row">4</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Поняття документу. Документообіг. Стиль та шаблони. Реквізити
+                  документа.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота №14. Інструктаж з БЖД. Використання шаблонів
+                  та стилів документа
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота №15. Використання об’єктів у документі.
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td class="table-row">
+                  Технічні та програмні засоби обробки документів та інформації
+                </td>
+                <td class="table-row">4</td>
+                <td class="table-row">2</td>
+                <td class="table-row">2</td>
+              </tr>
+              <tr>
+                <td class="table-number">6.</td>
+                <td>
+                  Системи управління електронними документами. Засоби створення,
+                  зберігання, обробки, копіювання і транспортування документів.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота №16. Інструктаж з БЖД. Створення та
+                  пересилання документів
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td class="table-row">Електронний документообіг</td>
+                <td class="table-row">7</td>
+                <td class="table-row">2</td>
+                <td class="table-row">-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>Електронний документообіг. Електронний цифровий підпис.</td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Забезпечення конфіденційності електронних документів.
+                  Електронний офіс.
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>
+                  Практична робота № 17. Інструктаж з БЖД. Маніпулювання
+                  електронними документами.
+                </td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td>Підсумкове заняття</td>
+                <td>1</td>
+                <td>1</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="table-number"></td>
+                <td class="table-row-bold">Всього</td>
+                <td class="table-row">105</td>
+                <td class="table-row">71</td>
+                <td class="table-row">34</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="container footer-container">
+        <a class="footer-logo" href="../index.html">Galyna Vorona</a>
+        <ul class="footer-list">
+          <li class="footer-list-item">
+            <a class="footer-item-link" href="">privacy policy</a>
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-item-link" href="">terms & conditions</a>
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-item-link" href="">copyright notifications</a>
+          </li>
+        </ul>
+        <ul class="footer-soc-list">
+          <li class="footer-soc-list-item">
+            <a class="footer-soc-item-link" href="">
+              <svg class="footer-soc-link-svg" width="30" height="30">
+                <use href="../img/icon.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-list-item">
+            <a class="footer-soc-item-link" href="">
+              <svg class="footer-soc-link-svg" width="30" height="30">
+                <use href="../img/icon.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-list-item">
+            <a class="footer-soc-item-link" href="">
+              <svg class="footer-soc-link-svg" width="30" height="30">
+                <use href="../img/icon.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-list-item">
+            <a class="footer-soc-item-link" href="">
+              <svg class="footer-soc-link-svg" width="30" height="30">
+                <use href="../img/icon.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-list-item">
+            <a class="footer-soc-item-link" href="">
+              <svg class="footer-soc-link-svg" width="30" height="30">
+                <use href="../img/icon.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="../js/main.js" type="module" defer></script>
+  </body>
+</html>
